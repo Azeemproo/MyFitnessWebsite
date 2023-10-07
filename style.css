@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+}
+.nav{
+    display:flex;
+    list-style: none;
+    align-items: center;
+    color:white;
+}
+.nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+.nav button {
+    padding: 15px 40px;
+    background-color: yellow;
+    margin:20px;
+    color:gray;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.content{
+    background-color:#2E4374;
+}
+.content-inner{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    background-color: #2E4374;
+    min-height: 500px;
+}
+video{
+    height: 397px;
+    width:430px;
+}
+.card{
+    padding: 20px;
+    text-align: center;
+}
+.card-box{
+    display:flex;
+    justify-content: center;
+}
+.card-box-inner{
+    background-color:#6c1bb3;
+    padding: 25px 120px;
+    margin: -50px;
+    border-radius: 10px;
+    color:white;
+    list-style: none;
+}
+.members{
+    background-color:#8DDFCB;
+    margin-top: -25px;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: center;
+}
+.members-inner{
+    width: 600px;
+    list-style: none;
+}
+.cards{
+    display:flex;
+    justify-content:space-around;
+}
+.members-inner h1{
+    padding-left: 170px;
+    font-weight: 600;
+}
+.card1{
+    background-color:#5B0888;
+    color: white;
+    padding-left:10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-radius:10px;
+}
+.card2{
+    background-color:white;
+    color: black;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius:10px;
+}
